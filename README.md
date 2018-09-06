@@ -14,6 +14,7 @@ The code allows to test the accuracy of 3D models reconstructed for these images
 Access to BU4DFE dataset is needed in order to run this code.
 
 ### Setup
+- In folder data create subfolders `scans`, `indices`, `csv`, `scans_cropped`.
 - Unpack files listed in data/wrl_files_list.txt into data/scans, rename them as in F001/Angry/036.wrl -> F001_Angry_036_3d.wrl
 - Unpack [indices](https://drive.google.com/file/d/1iGfE4kHmTsHZ_ogVoYiPPJUhBplksLfc/view?usp=sharing) into data/indices
 - Unpack [csv files](https://drive.google.com/file/d/1HJSQSQGSggebYBCeIn_IpQBe4EjrNXSV/view?usp=sharing) into data/csv
