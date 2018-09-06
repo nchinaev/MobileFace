@@ -1,0 +1,25 @@
+This repository features code for 3D face reconstruction accuracy evaluation. We hope to provide an automated benchmark 
+for researchers in the area of 3D face reconstruction.
+
+Method and formulas for evaluation are detailed in paper 'MobileFace: 3D Face Reconstruction with Efficient CNN Regression' to be presented at [PeopleCap 2018](https://peoplecap2018.weebly.com/), an ECCV workshop on capturing and modeling human bodies, faces and hands.
+
+# Evaluation
+
+The evaluation is performed on a subset of BU4DFE. The subset is divided into two splits: validation and test, 2989 scans in total. 
+
+The two splits are defined as lists of images stored in `data/val_list.txt` and `data/test_list.txt`. Filenames in these two files reflect paths to the images in BU4DFE dataset. For example, F002_Angry_000_3d.jpg -> F002/Angry/000.jpg
+
+The code allows to test the accuracy of 3D models reconstructed for these images.
+
+Access to BU4DFE dataset is needed in order to run this code.
+
+### Setup
+- Unpack files listed in data/wrl_files_list.txt into data/scans, rename them as in F001/Angry/036.wrl -> F001_Angry_036_3d.wrl
+- Unpack [indices](https://drive.google.com/file/d/1iGfE4kHmTsHZ_ogVoYiPPJUhBplksLfc/view?usp=sharing) into data/indices
+- Unpack [csv files](https://drive.google.com/file/d/1HJSQSQGSggebYBCeIn_IpQBe4EjrNXSV/view?usp=sharing) into data/csv
+- run `transformWrl.py`
+- run `cropScans.m`
+
+### Usage 
+
+Run `compareBu4dfeMeshes.m`, follow instructions from this file.
