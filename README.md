@@ -1,7 +1,19 @@
 This repository features code for 3D face reconstruction accuracy evaluation. We hope to provide an automated benchmark 
 for researchers in the area of 3D face reconstruction.
 
-Method and formulas for evaluation are detailed in paper 'MobileFace: 3D Face Reconstruction with Efficient CNN Regression' to be presented at [PeopleCap 2018](https://peoplecap2018.weebly.com/), an ECCV workshop on capturing and modeling human bodies, faces and hands.
+Method and formulas for evaluation are detailed in paper 'MobileFace: 3D Face Reconstruction with Efficient CNN Regression' presented at [PeopleCap 2018](https://peoplecap2018.weebly.com/), an ECCV workshop on capturing and modeling human bodies, faces and hands.
+
+# Paper
+
+[[pdf]](https://github.com/nchinaev/MobileFace/blob/master/MobileFace_3D_Face_Reconstruction_Chinaev_Chigorin_Laptev.pdf)
+
+@InProceedings{Chinaev2018MobileFace,
+author = {Chinaev, Nikolai and Chigorin, Alexander and Laptev, Ivan},
+title = {MobileFace: 3D Face Reconstruction with Efficient CNN Regression},
+booktitle = {European Conference on Computer Vision (ECCV) Workshops},
+month = {Sep},
+year = {2018}
+}
 
 # Evaluation
 
