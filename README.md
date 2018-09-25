@@ -5,7 +5,7 @@ Method and formulas for evaluation are detailed in paper 'MobileFace: 3D Face Re
 
 # Paper
 
-[[pdf]](https://github.com/nchinaev/MobileFace/blob/master/MobileFace_3D_Face_Reconstruction_Chinaev_Chigorin_Laptev.pdf)
+[[pdf]](https://arxiv.org/pdf/1809.08809.pdf)
 
 @InProceedings{Chinaev2018MobileFace,<br />
 author = {Chinaev, Nikolai and Chigorin, Alexander and Laptev, Ivan},<br />
